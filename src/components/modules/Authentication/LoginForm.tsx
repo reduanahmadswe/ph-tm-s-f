@@ -1,4 +1,5 @@
 import Logo from "@/assets/icons/Logo";
+import { ModeToggle } from "@/components/layout/ModeToggler";
 import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
@@ -11,7 +12,6 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import { ModeToggle } from "./ModeToggler";
 import { Link } from "react-router";
 
 // Navigation links array to be used in both desktop and mobile menus
